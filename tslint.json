@@ -9,6 +9,13 @@
     "trailing-comma": [true, "never"],
     "arrow-parens": false,
     "curly": [true, "ignore-same-line"],
-    "jsx-boolean-value": false
+    "jsx-boolean-value": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": true,
+    "jsx-alignment": false,
+    "no-submodule-imports": false,
+    "variable-name": [true, "check-format", "allow-leading-underscore" ],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "eofline": true
   }
 }
