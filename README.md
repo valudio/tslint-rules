@@ -5,13 +5,21 @@ TSLint rules for TypeScript projects at Valudio.
 ## Usage
 
 ```
-npm install --save-dev @sourcegraph/tslint-config
-```
+npm i @valudio/tslint-rules```
 
 Then add this tslint.json:
 
 ```json
 {
-  "extends": "@sourcegraph/tslint-config"
+  "extends": ["@valudio/tslint-rules"],
+  "linterOptions": {
+    "exclude": [
+      "**/*.css",
+      "**/*.scss",
+      "**/*.svg",
+      "**/*.js",
+      "**/serviceWorker.ts"
+    ]
+  }
 }
 ```
