@@ -1,6 +1,6 @@
 {
   "name": "@valudio/tslint-rules",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "TSLint rules for TypeScript projects at Valudio",
   "main": "tslint.json",
   "license": "MIT",
