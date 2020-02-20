@@ -5,7 +5,8 @@ TSLint rules for TypeScript projects at Valudio.
 ## Usage
 
 ```
-npm i @valudio/tslint-rules```
+npm i @valudio/tslint-rules
+```
 
 Then add this tslint.json:
 
